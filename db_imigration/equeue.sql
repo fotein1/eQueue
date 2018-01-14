@@ -85,38 +85,9 @@ CREATE TABLE `oauth_users` (
 --
 
 INSERT INTO `oauth_users` (`user_id`, `token`) VALUES
-(1, '???@+??7???J????k???I,??.!?)??k??t?u?*Q\\??t???????L9??tD??g?<bWo??%t&?$Z?q?ZZ$??????lH?z?[Z?;???28S?jO??y??iZ??D??5I?y???6J??@???Ms??@????g????ST???Z/2?????s-k???S\n?k;????B??Q\r?0?Q?%\\?P???6Hh}??J?0P78???<@?ida????bR?n?n???|??'),
-(2, 'ea452a6c2e45daed4cbc47790df87cd696fe3f190e0df4d92f6f1c122529df2a5e66b0e7b39a7f4e2092912c611bb1bf82ead247a44260c2e0bd4e89b3714a59a14cf8ffa5646d31735dd87be286a147c1dc76ee559f258519f361a1ce268f54b259d0d8c02e06d393eda3541826b68ec7622d2355815d1399c903e0e20adb49617b60b0064b64670d4cdb5ab7b4ebfb495ba94c03915ccf01fed8c1c9a39934c0b5f612264bc372a6673ef09d030a098a98d557d078ab2a25276a0dc5e7fe3c5790f8b92a9e01881da107ad417f6e5c49cb50b3b59f33f85ca207b4aac9373ac9842ed11da0512df7bffe3548bf039f0b175e6a76f2139c1eab68bb57280c'),
-(4, 'a12332af71e7b2e7febc804e31bc15bef7e24698'),
-(5, '99947960d9b503b51ec192f9386c26dc3c8d7bc1'),
-(6, '80e889f892341684f754f9293d7781d43cb49fc1'),
-(7, '78e5c5c018d6d52521cb238a6b30d8fd50f7a1ae'),
 (8, '3d0466bcdbb74465e96ab86ca18380966e273d39'),
 (9, '33af72b62f83a28df4496c5a9de274ae9321a1c9'),
-(10, 'eb7da1edf7a6f7e97efd8af8494d9334d182ae89'),
-(11, '76a7d98a3571c4403468be6c92fa225c64bf92f1'),
-(12, '848779c69c356cfc3f377a6a8fe414e551d57a6e'),
-(13, 'c4e32536c39cd6485b019c6b92ed751f2a431b1c'),
-(14, 'a0d7ee46962e58a54c4ff637a4677c4ccdab4fa5'),
-(15, '13f7c04bb0f90e95b0fe2bd35dc1dae75313bdee'),
-(16, 'a92f955127413fe0b92c368f84f6800278797613'),
-(17, '9b6e56cd49f8d2f3c212fb5554c8a08b5d37e2d9'),
-(18, 'ed315fcd855a3df67bf23eb5908243641e754801'),
-(19, '964c2c0291c0116c0258a83079acedc2d9a27a11'),
-(20, '357cc6ca195700e8e6f5710ecc36ed4b4ee8fb88'),
-(21, '0518ceda080f173a454d99b9ac54ee94f8367680'),
-(22, '4fcc23618aea07b2ac343320c88d5242d33e6b82'),
-(23, '866630639f7841302c55c88a4796363d9e79ae34'),
-(24, '21389c52fce7776a44ee929ea2c827dd2d3ea311'),
-(25, '59cefb2fb90d6a1aa333297971cedd9d1dfdedc7'),
-(26, 'ccc63f74930f79346e729bdf262674c7a9a51732'),
-(27, '8bb1ee71ac881243937e317fa9633791917c5aed'),
-(28, '407b84eb8fd8f29e92146cf98ea879255d10d364'),
-(29, '8c7a0afb17169eba2a3867058a0796d35804422e'),
-(30, '878402554afc679156785261b57a853ac12349a8'),
-(31, '19b87702a05e31d202857b8e70dc85b209e0e2f1'),
-(32, 'c2baf9b293cca9a06c33c5f48d17087cad4614f5'),
-(33, '8a6d03060f74c47f0c54a524da8d8cf0f5188756');
+(10, 'eb7da1edf7a6f7e97efd8af8494d9334d182ae89');
 
 -- --------------------------------------------------------
 
@@ -138,13 +109,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `email`, `username`, `password`) VALUES
-(1, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(2, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(3, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(4, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(5, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(6, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
-(7, 'fot', 'g', 'lol@ex.com', 'fotini', '123456'),
 (8, 'fot', 'g', 'lol@ex.com', 'fotini', 'e10adc3949ba59abbe56e057f20f883e'),
 (9, 'fot', 'g', 'lol@ex.com', 'fotini', 'e10adc3949ba59abbe56e057f20f883e'),
 (10, 'lolcaa', 'asddff', 'ant@ex.com', 'antman123', 'e10adc3949ba59abbe56e057f20f883e');
