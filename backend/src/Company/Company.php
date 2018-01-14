@@ -116,7 +116,7 @@ class Company
             throw new \RuntimeException();
         }
 
-        if (empty($companies)) {
+        if (empty($company)) {
             throw new NotFoundHttpException();
         }
 
