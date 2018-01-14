@@ -1,0 +1,20 @@
+<form class="container-fluid bg-1 text-center" style="width:50%;">
+    <div class="form-group">
+        <label for="category">Select category:</label>
+        <select id="category" class="form-control">
+            <option value="" selected disabled hidden>Company category</option>
+            <option value="0">Banks</option>
+            <option value="1">Hospitals</option>
+            <option value="2">Public Companies</option>
+            <option value="3">Shops</option>
+        </select>
+    </div>
+    <div class="form-group select_company" style="display:none">
+        <label for="role">Select company:</label>
+        <select id="company" class="form-control"></select>
+    </div>
+    
+    <button id="apply_form" type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<script src="models/apply.js"></script>

@@ -1,0 +1,79 @@
+<div id="register_forms_list" class="panel-group" style="margin-top:30px;">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#register_forms_list" href="#register_user_collapse">Register User</a>
+            </h4>
+        </div>
+        <div id="register_user_collapse" class="panel-collapse collapse">
+            <div class="panel-body container-fluid bg-1">
+                <form class="text-center">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input id="username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="first_name">First name:</label>
+                        <input id="first_name" class="form-control">
+                    </div>
+                     <div class="form-group">
+                        <label for="last_name">Last name:</label>
+                        <input id="last_name" class="form-control">
+                    </div>
+                    <button id="register_user_form" type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#register_forms_list" href="#register_company_collapse">Register Company</a>
+            </h4>
+        </div>
+        <div id="register_company_collapse" class="panel-collapse collapse">
+            <div class="panel-body container-fluid bg-1">
+                <form class="text-center">
+                    <div class="form-group">
+                        <label for="username_company">Username:</label>
+                        <input id="username_company" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password_company">Password:</label>
+                        <input id="password_company" type="password" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Company name:</label>
+                        <input id="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Company address:</label>
+                        <input id="address" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Select category:</label>
+                        <select class="form-control" id="category">
+                            <option value="" selected disabled hidden>Company category</option>
+                            <option value="0">Banks</option>
+                            <option value="1">Hospitals</option>
+                            <option value="2">Public Companies</option>
+                            <option value="3">Shops</option>
+                        </select>
+                    </div>
+                    <button id="register_company_form" type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<script src="models/register.js"></script>
