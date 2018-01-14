@@ -1,0 +1,12 @@
+config:
+  database:
+    db_options:
+      driver: pdo_mysql
+      host: localhost
+      dbname: equeue
+      username: root
+      password:
+      charset: utf8
+
+
+
